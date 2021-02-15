@@ -100,8 +100,13 @@
     position: absolute;
     left: 1200px;
     top: 75px;
-    background-color: darkgray;   
 }
+
+img.c1{
+    position: relative;
+    right: 100;
+}
+
 .dealer{
     border: 2px black;    
     height: 112px;
