@@ -16,7 +16,7 @@
     width:50px;
     border-style: solid;
     position: absolute;
-    left: 500px;
+    left: 550px;
     bottom: 350px;
     background-color: darkgray;   
 }
@@ -27,7 +27,7 @@
     border-style: solid;
     position: absolute;
     background-color: darkgray;
-    left: 600px;
+    left: 650px;
     bottom: 350px;
 }
 .card3{
@@ -36,7 +36,7 @@
     width:50px;
     border-style: solid;
     position: absolute;
-    left: 700px;
+    left: 750px;
     bottom: 350px;
     background-color: darkgray;
 }
@@ -46,18 +46,69 @@
     width:50px;
     border-style: solid;
     position: absolute;
-    left: 800px;
+    left: 850px;
     bottom: 350px;
     background-color: darkgray;
 }
 .river{
     border: 2px black;    
     height: 100px;
-    left: 900px;
+    left: 950px;
     bottom: 350px;
     width:50px;
     border-style: solid;
     position: absolute;
     background-color: darkgray;
 
+}
+
+.player1{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: absolute;
+    left: 100px;
+    bottom: 550px;
+    background-color: darkgray;   
+}
+.player2{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: absolute;
+    left: 1200px;
+    bottom: 100px;
+    background-color: darkgray;   
+}
+.player3{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    background-color: darkgray;   
+}
+.player4{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: absolute;
+    left: 1200px;
+    top: 75px;
+    background-color: darkgray;   
+}
+.dealer{
+    border: 2px black;    
+    height: 112px;
+    width:200px;
+    border-style: solid;
+    position: absolute;
+    left: 650px;
+    top: 80px;
+    background-image: url("../img/dealer.png");  
 }
