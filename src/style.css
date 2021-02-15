@@ -1,0 +1,63 @@
+.table{
+    position: relative;
+    height: 700px;
+    width: 1510px;
+    background-color: lawngreen;
+    border-radius: 40%;
+    display: inline-block;
+    align-items: center;
+}
+
+
+
+.card1{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: absolute;
+    left: 500px;
+    bottom: 350px;
+    background-color: darkgray;   
+}
+.card2{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: absolute;
+    background-color: darkgray;
+    left: 600px;
+    bottom: 350px;
+}
+.card3{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: absolute;
+    left: 700px;
+    bottom: 350px;
+    background-color: darkgray;
+}
+.forth{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: absolute;
+    left: 800px;
+    bottom: 350px;
+    background-color: darkgray;
+}
+.river{
+    border: 2px black;    
+    height: 100px;
+    left: 900px;
+    bottom: 350px;
+    width:50px;
+    border-style: solid;
+    position: absolute;
+    background-color: darkgray;
+
+}
