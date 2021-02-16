@@ -1,0 +1,126 @@
+
+/* need to fix the table image. We would use background img later = Hyunki Lee */
+.table{
+    position: absolute;
+    height: 700px;
+    width: 1510px;
+    background-color: lawngreen;
+    border-radius: 40%;
+    display: inline-block;
+    left: 20%;
+	top: 25%;
+	overflow: hidden;
+	
+}
+
+
+
+.card1{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: fixed;
+    left: 33%;
+    bottom: 45%;
+    background-color: darkgray;   
+}
+.card2{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: fixed;
+    background-color: darkgray;
+    left: 40%;
+    bottom: 45%;
+}
+.card3{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: fixed;
+    left: 48.5%;
+    bottom: 45%;
+    background-color: darkgray;
+}
+.forth{
+    border: 2px black;    
+    height: 100px;
+    width:50px;
+    border-style: solid;
+    position: fixed;
+    right: 40%;
+    bottom: 45%;
+    background-color: darkgray;
+}
+.river{
+    border: 2px black;    
+    height: 100px;
+    right: 33%;
+    bottom: 45%;
+    width:50px;
+    border-style: solid;
+    position: fixed;
+    background-color: darkgray;
+
+}
+
+.player1{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    background-color: darkgray;   
+}
+.player2{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: fixed;
+    right: 20%;
+    bottom: 20%;
+    background-color: darkgray;   
+}
+.player3{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: fixed;
+    left: 20%;
+    bottom: 20%;
+    background-color: darkgray;   
+}
+.player4{
+    border: 2px black;    
+    height: 150px;
+    width:175px;
+    border-style: solid;
+    position: fixed;
+    right: 20%;
+    top: 20%;
+	background-color: darkgray;
+}
+
+img.c1{
+    position: relative;
+    right: 100;
+}
+
+.dealer{
+    border: 2px black;    
+    height: 112px;
+    width:200px;
+    border-style: solid;
+    position: fixed;
+	top: 10%;
+	left: 45%;
+	
+    background-image: url("../img/dealer.png");  
+}
