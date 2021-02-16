@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+  background-image: url(poker.png);
+  color: white;
+}
+
+input{
+  width: 10%;
+  height: 30px;
+}
+
+button{
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+}
+.center {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  padding: 10px;
+}
