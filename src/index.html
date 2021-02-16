@@ -1,53 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Project1-UI</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="transition.css">
+	<title>Texas Hold'em Login</title>
 </head>
-<body>
-    <span class = "table"></span>
-    <div class = "card1">
+<body class="login_page">
+	<div class = "login_info">
+		<h1> Texas Hold'em Login </h1>
+		<form action="page2.html" class="form1">
+			<label>Username: </label>
+			<input type="text" placeholder="Username" name="username" minlength="4"/>
+			<br/>
 
-    </div>
-    <div class = "card2">
+			<label>Password: </label>
+			<input type="password" placeholder="Password" name="password"/>
+			<br/>
 
-    </div>
-    <div class = "card3">
-
-    </div>
-    <div class = "forth">
-
-    </div>
-    <div class = "river">
-
-    </div>
-    
-    <div class = "player1">
-        <p>p1</p>
-        <img class = "c1" src="../img/king_d.png" alt="">
-        <img class = "c2" src="../img/king_s.png" alt="">
-    </div>
-    <div class = "player2">
-        <p>p2</p>
-        <img class = "c1" src="../img/king_h.png" alt="">
-        <img class = "c2" src="../img/nine_s.png" alt="">
-    </div>
-    <div class = "player3">
-        <p>p3</p>
-        <img class = "c1" src="../img/king_c.png" alt="">
-        <img class = "c2" src="../img/four_d.png" alt="">
-    
-    </div>
-    <div class = "player4">
-        <p>p4</p>
-        <img class = "c1" src="../img/ace_h.png" alt="">
-        <img class = "c2" src="../img/Ace_s.png" alt="">
-    </div>
-    <div class = "dealer">
-        <p>Dealer</p>
-    </div>
+			<button class="button1" type="submit">Login</button>
+			<button class="button1" type = "submit">Register</button>
+			<br/>
+			<button class="button1" type="submit">Forgot Password</button>
+		</form>
+		<br/><br/><br/>
+		<div class="load_icon"></div>
+	</div>
 </body>
 </html>
