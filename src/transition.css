@@ -1,0 +1,221 @@
+/*Format body*/
+body{
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	margin: 0;
+	padding: 0;
+	--animation-load-time: 800ms;
+}
+/*Format Loading page*/
+.login_page{
+	background-image: url("./img/poker.png");
+	color: white;
+}
+
+/*Format load icon*/
+.login_info{
+	width: 30%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 300px;
+	padding: 10px;
+	animation: login-load var(--animation-load-time) ease-out;
+}
+@keyframes login-load{
+	0%{
+		transform: translateY(-70%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+.load_icon{
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 50px;
+	height: 50px;
+	display: none;
+	margin: auto;
+	animation: loading 2s linear infinite;
+}
+@keyframes loading {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+/*Format button*/
+.button1{
+	background-color: gray;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+}
+/*Format second page*/
+.page2{
+	background-image: url("./img/poker.png");
+	color: white;
+}
+.trans{
+	transform: scale(0);
+	animation: card-first-appear 800ms ease-out forwards;
+}
+@keyframes card-first-appear{
+	0%{
+		transform: scale(0);
+	}
+
+	90%{
+		transform: scale(1.1);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+}
+
+/*From Jacob's css file*/
+.table{
+	position: relative;
+	height: 700px;
+	width: 1510px;
+	background-color: lawngreen;
+	border-radius: 40%;
+	display: inline-block;
+	align-items: center;
+}
+.card1{
+	border: 2px black;    
+	height: 100px;
+	width:50px;
+	border-style: solid;
+	position: absolute;
+	left: 550px;
+	bottom: 350px;
+	background-color: darkgray;   
+}
+.card2{
+	border: 2px black;    
+	height: 100px;
+	width:50px;
+	border-style: solid;
+	position: absolute;
+	background-color: darkgray;
+	left: 650px;
+	bottom: 350px;
+}
+.card3{
+	border: 2px black;    
+	height: 100px;
+	width:50px;
+	border-style: solid;
+	position: absolute;
+	left: 750px;
+	bottom: 350px;
+	background-color: darkgray;
+}
+.forth{
+	border: 2px black;    
+	height: 100px;
+	width:50px;
+	border-style: solid;
+	position: absolute;
+	left: 850px;
+	bottom: 350px;
+	background-color: darkgray;
+}
+.river{
+	border: 2px black;    
+	height: 100px;
+	left: 950px;
+	bottom: 350px;
+	width:50px;
+	border-style: solid;
+	position: absolute;
+	background-color: darkgray;
+
+}
+
+.player1{
+	border: 2px black;    
+	height: 150px;
+	width:175px;
+	border-style: solid;
+	position: absolute;
+	left: 100px;
+	bottom: 550px;
+	background-color: darkgray;   
+}
+.player2{
+	border: 2px black;    
+	height: 150px;
+	width:175px;
+	border-style: solid;
+	position: absolute;
+	left: 1200px;
+	bottom: 100px;
+	background-color: darkgray;   
+}
+.player3{
+	border: 2px black;    
+	height: 150px;
+	width:175px;
+	border-style: solid;
+	position: absolute;
+	left: 100px;
+	bottom: 150px;
+	background-color: darkgray;   
+}
+.player4{
+	border: 2px black;    
+	height: 150px;
+	width:175px;
+	border-style: solid;
+	position: absolute;
+	left: 1200px;
+	top: 75px;
+}
+
+img.c1{
+	position: relative;
+	right: 100;
+}
+
+.dealer{
+	border: 2px black;    
+	height: 112px;
+	width:200px;
+	border-style: solid;
+	position: absolute;
+	left: 650px;
+	top: 80px;
+	background-image: url("./img/dealer.png");  
+}
+.dealer:visited .trans{
+	animation: card-disappear 800ms ease-out forwards;
+}
+@keyframes card-disappear{
+	0%{
+		transform: scale(1);
+	}
+
+	90%{
+		transform: scale(1.1);
+	}
+
+	100%{
+		transform: scale(0);
+	}
+}
+/*Format second page*/
+.page3{
+	background-color: #A9A9A9;
+}
+
