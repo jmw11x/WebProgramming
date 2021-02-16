@@ -1,32 +1,40 @@
 
 /* need to fix the table image. We would use background img later = Hyunki Lee */
+body{
+  background-color: black;
+  background-image: url(../img/outerbg.jpg);
+}
 .table{
-    position: absolute;
-    height: 700px;
-    width: 1510px;
+    position: fixed;
+    height: 80%;
+    width: 80%;
     background-color: lawngreen;
+    background-image: url("../img/pokertablebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 40%;
     display: inline-block;
-    left: 20%;
-	top: 25%;
+    left: 10%;
+    top: 16%;
+
 	overflow: hidden;
-	
+
 }
 
 
 
 .card1{
-    border: 2px black;    
+    border: 2px black;
     height: 100px;
     width:50px;
     border-style: solid;
     position: fixed;
     left: 33%;
     bottom: 45%;
-    background-color: darkgray;   
+    background-color: darkgray;
 }
 .card2{
-    border: 2px black;    
+    border: 2px black;
     height: 100px;
     width:50px;
     border-style: solid;
@@ -36,7 +44,7 @@
     bottom: 45%;
 }
 .card3{
-    border: 2px black;    
+    border: 2px black;
     height: 100px;
     width:50px;
     border-style: solid;
@@ -46,7 +54,7 @@
     background-color: darkgray;
 }
 .forth{
-    border: 2px black;    
+    border: 2px black;
     height: 100px;
     width:50px;
     border-style: solid;
@@ -56,7 +64,7 @@
     background-color: darkgray;
 }
 .river{
-    border: 2px black;    
+    border: 2px black;
     height: 100px;
     right: 33%;
     bottom: 45%;
@@ -68,37 +76,37 @@
 }
 
 .player1{
-    border: 2px black;    
+    border: 2px black;
     height: 150px;
     width:175px;
     border-style: solid;
     position: fixed;
     left: 20%;
     top: 20%;
-    background-color: darkgray;   
+    background-color: darkgray;
 }
 .player2{
-    border: 2px black;    
+    border: 2px black;
     height: 150px;
     width:175px;
     border-style: solid;
     position: fixed;
     right: 20%;
     bottom: 20%;
-    background-color: darkgray;   
+    background-color: darkgray;
 }
 .player3{
-    border: 2px black;    
+    border: 2px black;
     height: 150px;
     width:175px;
     border-style: solid;
     position: fixed;
     left: 20%;
     bottom: 20%;
-    background-color: darkgray;   
+    background-color: darkgray;
 }
 .player4{
-    border: 2px black;    
+    border: 2px black;
     height: 150px;
     width:175px;
     border-style: solid;
@@ -114,13 +122,13 @@ img.c1{
 }
 
 .dealer{
-    border: 2px black;    
+    border: 2px black;
     height: 112px;
     width:200px;
     border-style: solid;
     position: fixed;
 	top: 10%;
 	left: 45%;
-	
-    background-image: url("../img/dealer.png");  
+
+    background-image: url("../img/dealer.png");
 }
