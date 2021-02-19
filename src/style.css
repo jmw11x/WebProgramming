@@ -85,7 +85,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 730px;
     width: 1510px;
     border-radius: 40%;
     display: flex;
@@ -147,7 +147,7 @@ body{
     width:175px;
     position: absolute;
     left: 25%;
-    top: 15%;
+    top: 10%;
     background-color: transparent;
 }
 .player2{
@@ -174,7 +174,7 @@ body{
     width:175px;
     position: absolute;
     right: 25%;
-    top: 15%;
+    top: 10%;
     background-color: transparent;
 }
 .p1inner{
