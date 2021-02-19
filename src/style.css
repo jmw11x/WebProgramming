@@ -1,0 +1,256 @@
+body{
+    background-image: url("../img/poker.png");
+    color: white;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+/*Login page effect*/
+.login_info{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    padding: 10px;
+    animation: login-load 800ms ease-out;
+}
+@keyframes login-load{
+    0%{
+        transform: translateY(-70%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+/*Buttons effect*/
+.button{
+    background-color: gray;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgb(49, 158, 49);
+    transition: transform 400ms ease-in;
+    transform: scale(0);
+}
+.button:hover::before, .button:focus::before{
+    transform: scale(1);
+}
+/*Table_page effect*/
+.main_effect{
+    transform: scale(0);
+    animation: card-first-appear 800ms ease-out forwards;
+}
+@keyframes card-first-appear{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    90%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+.table{
+    background-image: url("../img/pokertablebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    width: 1510px;
+    border-radius: 40%;
+    display: flex;
+    margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+
+}
+.card1{
+    border: 2px black;
+    height: 100px;
+    width:50px;
+    position: absolute;
+    left: 35%;
+    bottom: 350px;
+    background-color: darkgray;
+}
+.card2{
+    border: 2px black;
+    height: 100px;
+    width:50px;
+    position: absolute;
+    background-color: darkgray;
+    left: 42%;
+    bottom: 350px;
+}
+.card3{
+    border: 2px black;
+    height: 100px;
+    width:50px;
+    position: absolute;
+    left: 49%;
+    bottom: 350px;
+    background-color: darkgray;
+}
+.forth{
+    border: 2px black;
+    height: 100px;
+    width:50px;
+    position: absolute;
+    left: 56%;
+    bottom: 350px;
+    background-color: darkgray;
+}
+.river{
+    border: 2px black;
+    height: 100px;
+    left: 63%;
+    bottom: 350px;
+    width:50px;
+
+    position: absolute;
+    background-color: darkgray;
+
+}
+.player1{
+    color: white;  
+    height: 150px;
+    width:175px;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    background-color: transparent;
+}
+.player2{
+    color: white;  
+    height: 150px;
+    width:175px;
+    position: absolute;
+    right: 25%;
+    bottom: 15%;
+    background-color: transparent;
+}
+.player3{
+    color: white;   
+    height: 150px;
+    width:175px;
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+    background-color: transparent;
+}
+.player4{
+    color: white;
+    height: 150px;
+    width:175px;
+    position: absolute;
+    right: 25%;
+    top: 15%;
+    background-color: transparent;
+}
+.p1inner{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.p2inner{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.p3inner{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.p4inner{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.player1:hover .p1inner{
+    transform: rotateY(180deg);
+}
+.player2:hover .p2inner{
+    transform: rotateY(180deg);
+}
+.player3:hover .p3inner{
+    transform: rotateY(180deg);
+}
+.player4:hover .p4inner{
+    transform: rotateY(180deg);
+}
+.p1front, p1back{
+    position:absolute;
+    backface-visibility: hidden;
+}
+.p1front{
+    transform: rotateY(180deg);
+}
+.p2front, p2back{
+    position:absolute;
+    backface-visibility: hidden;
+}
+.p2front{
+    transform: rotateY(180deg);
+}
+.p3front, p3back{
+    position:absolute;
+    backface-visibility: hidden;
+}
+.p3front{
+    transform: rotateY(180deg);
+}
+.p4front, p4back{
+    position:absolute;
+    backface-visibility: hidden;
+}
+.p4front{
+    transform: rotateY(180deg);
+}
+img.chips{
+    position: fixed;
+    bottom: 5%;
+    right: 45%;
+	
+}
+.dealer{
+    color: white;
+    border: 2px black;
+    height: 112px;
+    width:200px;
+    border-style: solid;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    background-image: url("../img/dealer.png");
+}
